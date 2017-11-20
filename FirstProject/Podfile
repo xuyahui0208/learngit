@@ -1,0 +1,40 @@
+target 'FirstProject' do
+    # 集成微信(完整版14.4M)
+    pod ‘UMengUShare/Social/WeChat'
+    pod ‘UMengUShare/UI’
+    # 集成QQ(精简版0.5M)
+    pod ‘UMengUShare/Social/ReducedQQ'
+
+    # 集成QQ(完整版7.6M)
+    pod ‘UMengUShare/Social/QQ'
+
+    # 集成新浪微博(精简版1M)
+    pod ‘UMengUShare/Social/ReducedSina'
+
+    # 集成新浪微博(完整版25.3M)
+    pod ‘UMengUShare/Social/Sina'
+    # 集成短信
+    pod ‘UMengUShare/Social/SMS' 
+    pod 'Masonry'
+    pod 'AFNetworking','~> 2.5.0'
+    pod 'STAlertView','~> 1.0.0'
+    pod 'AMap3DMap', '~> 5.0.0'
+#   pod 'AMap3DMap', '~> 3.1.0.1'
+# 'AMap3DMap', '~> 5.0.0'
+#   pod 'AMapCloudMap', '~> 1.2.0'
+#   pod 'AMapLocation', '~> 1.0.0'
+    pod 'AMapSearch' # , '~> 3.0.0'
+    pod 'AMapLocation'
+
+#  pod 'AMap3DMap', '~> 3.1.0.1'
+#pod 'AMapCloudMap', '~> 1.2.0'
+#pod 'AMapLocation', '~> 1.0.0'
+#pod 'AMapSearch', '~> 3.0.0'
+    pod 'pop'
+end
+target 'FirstProjectTests' do
+    pod 'AFNetworking', '~> 2.5.0'
+    pod 'STAlertView', '~> 1.0.0'
+    pod 'MBProgressHUD'
+    pod 'IQKeyboardManager'
+end
